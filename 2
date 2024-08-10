@@ -1,0 +1,11 @@
+import pandas as pd
+iris = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv')
+print("First 10 records:")
+print(iris.head(10))
+print("\nTotal number of rows and columns:")
+print("Rows:", iris.shape[0])
+print("Columns:", iris.shape[1])
+print("\nColumn names:")
+print(iris.columns)
+print("\nMean of all attributes:")
+print(iris.mean())
